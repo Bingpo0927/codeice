@@ -1,0 +1,64 @@
+/* 演员介绍 */
+.main-content .actor {
+  margin-top: 14px;
+}
+
+/* .main-content .actor .actor-message {
+    border-left: 10px solid #003eb3;
+    margin: 0px -16px;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+} */
+.main-content .actor .actor-message .line {
+  flex-grow: 1;
+  background: #eee;
+  height: 1px;
+  margin-left: 12px;
+}
+
+.main-content .actor .actor-list {
+  margin-top: 24px;
+  padding: 0 10px;
+}
+
+/* 演员整体 */
+.main-content .actor .actor-list .actor-item {
+  display: flex;
+  align-items: start;
+}
+
+.main-content .actor .actor-list .actor-item:not(:last-child) {
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+/* 佟湘玉 */
+.main-content .actor .actor-img {
+  width: 135px;
+}
+
+.main-content .actor .actor-list .actor-desc {
+  margin-left: 16px;
+}
+
+.main-content .actor .actor-list .actor-desc .role-name {
+  color: #003eb3;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.main-content .actor .actor-list .actor-item .actor-desc .actor-name {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.main-content .actor .actor-list .actor-item .actor-desc .actor-name .label {
+  color: #999;
+}
+
+.main-content .actor .actor-list .actor-item .actor-desc .role-detail {
+  font-size: 13px;
+  line-height: 1.3;
+}

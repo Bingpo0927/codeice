@@ -1,0 +1,24 @@
+body,ul,li,ol,h1,h2,h3,h4,p,dl,dt {
+  margin: 0;
+  padding: 0;
+}
+a {
+  /* text-decoration: none; */
+  color: blue;
+  outline: none;
+}
+ul,li,ol {
+  /* 前面的小圆点去掉 */
+  list-style: none;
+}
+/* 默认输入框属性做一个重置 */
+input {
+  outline: none;
+  border: none;
+}
+img {
+  vertical-align: top;
+}
+i {
+  font-style: normal;
+}

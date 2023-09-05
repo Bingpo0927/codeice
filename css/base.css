@@ -1,0 +1,46 @@
+/* 基本信息 */
+.main-content .base {
+  margin-top: 14px;
+}
+/* 左边的线条 */
+/* .main-content .base .base-message {
+  border-left: 10px solid #003eb3;
+    margin: 0px -16px;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center
+} */
+/* 字体大小 */
+.main-content .base .title {
+  font-size: 150%;
+}
+/* 线条 */
+.main-content .base .line {
+    flex-grow: 1;
+    background: #eee;
+    height: 1px;
+    margin-left: 12px;
+}
+
+/* 下面文字介绍 */
+.main-content .base .base-content {
+  margin-top: 24px;
+  padding: 0px 10px;
+}
+.main-content .base-content .row {
+  display: flex;
+  font-size: 6px;
+  padding: 12px 0px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.main-content .base-content .row .col {
+  flex-basis: 50%;
+  display: flex
+}
+.main-content .base-content .row .col .name {
+    color: #999;
+    font-weight: bold;
+    width: 80px;
+    flex-basis: 15%;
+}

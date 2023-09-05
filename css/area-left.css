@@ -1,0 +1,85 @@
+/* 简介 */
+.main-content {
+  width: 1050px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+/* 选择器后面样式 */
+.main-content .item {
+background-color: #fff;
+border: solid 1px #E5E5E5;
+box-shadow: 0 2px 3px -2px #d5d5d5;
+padding: 32px 16px;  
+}
+/* 选择器前面样式 */
+.main-content .area-left {
+  display: flex;
+}
+/* 点赞收藏转发总体 */
+.main-content .area-left-text .header_type{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  margin-bottom: 24px;
+}
+/* 字体和数字总体 */
+.main-content .area-left-text .header_type-item {
+  margin-left: 8px;
+}
+
+/* 竖线样式 */
+.main-content .area-left-text .header_type-item:not(:last-child) {
+  border-right: 1px solid #519cea;
+  padding-right: 8px;
+}
+/* 字体 */
+.main-content .area-left-text .header_type-item .name {
+  font-weight: 500;
+  color: #519cea;
+}
+/* 数字 */
+.main-content .area-left-text .header_type-item .num {
+  color: #888;
+}
+/* 简介整体 */
+.main-content .area-left .area-left-text {
+  margin-right: 8px;
+}
+/* 剧情介绍 */
+.main-content .area-left .show-desc-item {
+  font-size: 14px;
+  line-height: 35px;
+  text-indent: 2em;
+}
+/* 右侧图片 */
+.main-content .area-left .overall-intro-image {
+flex-basis: 25%;
+flex-shrink: 0;
+width: 0px;
+}
+/* 类型 导演 播出时间 中文名 */
+.main-content .area-left .show-message {
+  margin-top: 25px;
+}
+.main-content .area-left .show-message .row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 12px 0px;
+}
+/* 未知样式名字 */
+.main-content .area-left .show-message .row .row-item {
+  flex-basis: 50%;
+  display: flex;
+}
+/* 导演字体 */
+.main-content .area-left .show-message .row .name {
+  color: #333;
+  font-weight: bold;
+  flex-basis: 25%;
+}
+.main-content .area-left .show-message .row .data {
+  color: #747474;
+}
+
+

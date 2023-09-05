@@ -1,0 +1,32 @@
+.overview {
+  height: 360px;
+  background-color: #e6f4ff;
+}
+.overview .banner {
+  width: 1050px;
+  margin: 0 auto;
+}
+.overview .banner .title {
+  padding-top: 32px;
+  font: 32px "Microsoft Yahei";
+}
+.overview .banner .tip {
+  color: #626675;
+  font-size: 16px;
+
+  margin: 10px 0 0  ;
+}
+.overview .banner .box {
+  width: 100%;
+  height: 220px;
+
+  margin-top: 5px;
+  /* background-color: pink; */
+
+  display: flex;
+  justify-content: space-between;
+}
+.overview .banner .box img {
+  line-height: 220px;
+  border-radius: 14px;
+}

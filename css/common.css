@@ -1,0 +1,10 @@
+body {
+  background-color: #f5f5f5;
+}
+.message {
+  border-left: 10px solid #003eb3;
+  margin: 0px -16px;
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+}
